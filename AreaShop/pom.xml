@@ -158,13 +158,6 @@
             <version>any</version>
             <systemPath>${project.basedir}/../dependencies/VaultAPI-1.4.jar</systemPath>
         </dependency>
-
-        <!-- bStats -->
-        <dependency>
-            <groupId>org.bstats</groupId>
-            <artifactId>bstats-bukkit</artifactId>
-            <version>1.1</version>
-        </dependency>
     </dependencies>
 
     <profiles>
@@ -306,11 +299,6 @@
                                 <relocation>
                                     <pattern>me.wiefferink.bukkitdo</pattern>
                                     <shadedPattern>me.wiefferink.areashop.shaded.bukkitdo</shadedPattern>
-                                </relocation>
-                                <!-- Relocate bstats -->
-                                <relocation>
-                                    <pattern>org.bstats</pattern>
-                                    <shadedPattern>me.wiefferink.areashop.shaded.bstats</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>

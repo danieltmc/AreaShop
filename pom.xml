@@ -29,15 +29,15 @@
   <repositories>
     <repository>
       <id>vault-repo</id>
-      <url>http://nexus.hc.to/content/repositories/pub_releases</url>
+      <url>https://maven.elmakers.com/repository</url>
+    </repository>
+    <repository>
+      <id>essx-repo</id>
+      <url>https://ci.ender.zone/plugin/repository/everything/</url>
     </repository>
     <repository>
       <id>wiefferink-repo</id>
       <url>http://maven.wiefferink.me</url>
-    </repository>
-    <repository>
-      <id>bstats-repo</id>
-      <url>http://repo.bstats.org/content/repositories/releases/</url>
     </repository>
   </repositories>
 
