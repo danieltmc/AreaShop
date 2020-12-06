@@ -104,7 +104,7 @@ public class AddfriendCommand extends CommandAreaShop {
       }
       // If player has less than $2500 -> Failure message + return
       else {
-        this.plugin.message(sender, ChatColor.DARK_GRAY + "You need $2500 to do that!", new Object[] { region });
+        this.plugin.message(sender, "addfriend-youBroke");
         return;
       } 
     } else if (sender.hasPermission("areashop.addfriend") && sender instanceof Player) {
@@ -142,7 +142,7 @@ public class AddfriendCommand extends CommandAreaShop {
         }
         // If player has less than $2500 -> Failure message + return
         else {
-          this.plugin.message(sender, ChatColor.DARK_GRAY + "You need $2500 to do that!", new Object[] { region });
+          this.plugin.message(sender, "addFriend-youBroke");
           return;
         }
       }
